@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<title>My RWD Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="#home" class="w3-bar-item w3-button">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+            <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+                <i class="fa fa-search"></i>
+            </a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+            <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+            <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+            <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+        </div>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Live <span class="w3-hide-small">Your</span> Dream</span>
+        </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center">ABOUT ME</h3>
+        <p class="w3-center"><em>I love coding</em></p>
+        <p>I have created a "personal" website/blog, and posted all my projects that I worked on using HTML, CSS & Javascript. I also created a a game called Memory game using Javascript. I love coding and I am really passionate about creating new websites
+            and new games using Javascript. I am learning Python so I can have more experience and use it towards problem solving and build more new and exciting webistes, apps and IOS games.
+        </p>
+        <hr>
+        <table cellspacing="25">
+            <td>
+            
+                        <img src="../zmahfuz_rwd/images/circle-cropped.png" alt="Photo of Me " width=100% height="400">
+                
+            </td>
+            <td>
+
+                    <p>Welcome to my website. I am Zunayed Mahfuz. I am a Full-time software developer and IOS developer. I am finised my degree in Software Development from Wichita State University. I am very passionate about programming. When
+                        I have free time, I like to travel and explore new places and food. I also love to read and watch documentaries about ancient history.</p>
+                
+            </td>
+        </table>
+        <!-- <div class="w3-row">
+            <div class="w3-col m6 w3-center w3-padding-large">
+                <p><b><i class="fa fa-user w3-margin-right"></i>Zunayed Mahfuz</b></p><br>
+                <img src="../zmahfuz_rwd/images/IMG_3011.png " alt="Photo of Me " width="300 " height="400 ">
+            </div> -->
+
+            <!-- Hide this text on small devices -->
+            <!-- <div class="w3-col m6 w3-hide-small w3-padding-large w3-margin-top-100">
+                <p>Welcome to my website. I am Zunayed Mahfuz. I am a Full-time software developement student at Butler County Community College. I am finishing my degree and building my career in IT industry and I am very passionate about programming. When
+                    I have free time, I like to travel and explore new places and food. I also love to read and watch documentaries about ancient history.</p>
+            </div> -->
+        <table>
+        </div>
+        <td>
+        <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
+        <p class="w3-wide"><i class="fa fa-camera"></i>HTML & CSS</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center" color- "blue" style="width:90%">90%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-photo"></i>Javascript</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center" cellspacing="25" style="width:75%">75%</div>
+        </div>
+    </div>
+    </td>
+</table>
+    <!-- <div class="w3-row w3-center w3-dark-grey w3-padding-16"> -->
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">4+</span><br> HTML Projects Done
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">5+</span><br> CSS Projects Done
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">3+</span><br> Javascript Projects Done
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">2+</span><br> Website Projects Done
+        </div>
+    </div>
+
+    <!-- Second Parallax Image with Portfolio Text -->
+    <div class="bgimg-2 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <article <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+            </article>
+        </div>
+    </div>
+
+    <!-- Container (Portfolio Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="portfolio">
+        <h3 class="w3-center">MY WORK</h3>
+        <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
+
+        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width)
+        <div class="w3-row-padding w3-center">
+            <div class="w3-col m3">
+                <img src="../zmahfuz_rwd/images/ba-tikka-masala-2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="HTML Project of Top three Tasty Treats">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="../zmahfuz_rwd/images/Chicken-Rezala-1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="HTML Project of Top three Tasty Treats on Chicken-Rezala">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+            </div>
+        </div>
+
+        <div class="w3-row-padding w3-center w3-section">
+            <div class="w3-col m3">
+                <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+            </div>
+            <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+        </div>
+    </div> -->
+
+
+
+        <table>
+            <tr>
+                <td>
+                    <div class="card-container">
+                        <div class="card">
+                            <!-- IMAGE 01 -->
+                            <div class="side"><img src="https://farm5.staticflickr.com/4010/4379721674_1174ca1d3a_b.jpg"></div>
+                            <div class="side back">Macy's Herald Square</div>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="card-container">
+                        <div class="card">
+                            <!-- IMAGE 02 -->
+                            <div class="side"><img src="https://live.staticflickr.com/8380/8669832362_404f9f320b_b.jpg"></div>
+                            <div class="side back">Flatiron New York!</div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="card-container">
+                        <div class="card">
+                            <!-- IMAGE 03 -->
+                            <div class="side"><img src="https://live.staticflickr.com/4062/4687853795_4da5f649c1_b.jpg"></div>
+                            <div class="side back">East River NYC</div>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="card-container">
+                        <div class="card">
+                            <!-- IMAGE 04 -->
+                            <div class="side"><img src="https://farm5.staticflickr.com/4011/4688509440_c7ab00d5ef_b.jpg"></div>
+                            <div class="side back">Big Apple NYC!</div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <div class="card-container">
+                        <div class="card">
+                            <!-- IMAGE 05 -->
+                            <div class="side"><img src="http://c2.staticflickr.com/6/5814/20700286354_762c19bd3b_b.jpg"></div>
+                            <div class="side back">Bike Tour!</div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="card-container">
+                        <div class="card">
+                            <!-- IMAGE 06 -->
+                            <div class="side"><img src="http://c2.staticflickr.com/6/5647/21137202535_404bf25729_b.jpg"></div>
+                            <div class="side back">Downtown alley!</div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="card-container">
+                        <div class="card">
+                            <!-- IMAGE 07 -->
+                            <div class="side"><img src="http://c2.staticflickr.com/6/5588/14991687545_5c8e1a2e86_b.jpg"></div>
+                            <div class="side back">Wall street!</div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="card-container">
+                        <div class="card">
+                            <!-- IMAGE 08 -->
+                            <div class="side"><img src="https://live.staticflickr.com/4045/4687867519_d7fa9e1f0a_b.jpg"></div>
+                            <div class="side back">Brooklyn Bridge!</div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+
+
+
+
+
+
+        <!-- Modal for full size images on click-->
+        <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+            <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+            <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                <img id="img01" class="w3-image">
+                <p id="caption" class="w3-opacity w3-large"></p>
+            </div>
+        </div>
+
+        <!-- Third Parallax Image with Portfolio Text -->
+        <div class="bgimg-3 w3-display-container w3-opacity-min">
+            <div class="w3-display-middle">
+                <article>
+                    <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+                </article>
+            </div>
+        </div>
+
+        <!-- Container (Contact Section) -->
+        <div class="w3-content w3-container w3-padding-64" id="contact">
+            <h3 class="w3-center">WHERE I WORK</h3>
+            <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+            <div class="w3-row w3-padding-32 w3-section">
+                <div class="w3-col m4 w3-container">
+                    <img src="https://images.unsplash.com/photo-1503551723145-6c040742065b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="w3-image w3-round" style="width:100%">
+                </div>
+                <div class="w3-col m8 w3-panel">
+                    <div class="w3-large w3-margin-bottom">
+                        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Wichita, KS, US<br>
+                        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +1 316-7653<br>
+                        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: zunayed@mail.com<br>
+                    </div>
+                    <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+                    <form action="/action_page.php" target="_blank">
+                        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                            <div class="w3-half">
+                                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                            </div>
+                            <div class="w3-half">
+                                <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                            </div>
+                        </div>
+                        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+            <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+            <div class="w3-xlarge w3-section">
+                <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                <i class="fa fa-instagram w3-hover-opacity"></i>
+                <i class="fa fa-snapchat w3-hover-opacity"></i>
+                <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                <i class="fa fa-twitter w3-hover-opacity"></i>
+                <i class="fa fa-linkedin w3-hover-opacity"></i>
+            </div>
+            Site designed by Zunayed Mahfuz &copy; 2020. All Rights Reserved.
+        </footer>
+
+        <script>
+            // Modal Image Gallery
+            function onClick(element) {
+                document.getElementById("img01").src = element.src;
+                document.getElementById("modal01").style.display = "block";
+                var captionText = document.getElementById("caption");
+                captionText.innerHTML = element.alt;
+            }
+
+            // Change style of navbar on scroll
+            window.onscroll = function() {
+                myFunction()
+            };
+
+            function myFunction() {
+                var navbar = document.getElementById("myNavbar");
+                if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                    navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+                } else {
+                    navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+                }
+            }
+
+            // Used to toggle the menu on small screens when clicking on the menu button
+            function toggleFunction() {
+                var x = document.getElementById("navDemo");
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                } else {
+                    x.className = x.className.replace(" w3-show", "");
+                }
+            }
+        </script>
+
+</body>
+
+</html>
